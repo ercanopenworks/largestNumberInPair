@@ -14,6 +14,11 @@ namespace largestNumber
 
         public static int solution(int[] A)
         {
+
+            //3,2,-2,5,-3 = 3
+            //1,1,2,-1,2,-1 =1
+            //1,2,3,-4 = 0
+
             int res = 0;
 
             HashSet<int> set = new HashSet<int>();
